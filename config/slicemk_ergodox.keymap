@@ -18,7 +18,7 @@
                                                            &none      &none      &none      &none
                                                                       &none      &none
                                                 &kp SPACE  &kp BSPC                         &kp RET  &kp SPACE
-                                                                      &kp ESC    &C_PP
+                                                                      &kp ESC    &kp C_PP
                         >;
                 };
         };
