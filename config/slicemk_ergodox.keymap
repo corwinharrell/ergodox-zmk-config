@@ -5,30 +5,30 @@
 
 / {
         behaviors {
-                modup: mod_up {
+                ijklup: i_arrow_up {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "MOD_UP";
+                        label = "I_ARROW_UP";
                         #binding-cells = <25>;
                         bindings = <&kp I>, <&kp UP>;
                         mods = <MOD_LALT>;
                 };
-                modleft: mod_left {
+                ijklleft: j_arrow_left {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "MOD_LEFT";
+                        label = "J_ARROW_LEFT";
                         #binding-cells = <36>;
                         bindings = <&kp J>, <&kp LEFT>;
                         mods = <MOD_LALT>;
                 };
-                moddown: mod_down {
+                ijkldown: k_arrow_down {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "MOD_DOWN";
+                        label = "K_ARROW_DOWN";
                         #binding-cells = <37>;
                         bindings = <&kp K>, <&kp DOWN>;
                         mods = <MOD_LALT>;
                 };
-                modright: mod_right {
+                ijklright: l_arrow_right {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "MOD_RIGHT";
+                        label = "L_ARROW_RIGHT";
                         #binding-cells = <38>;
                         bindings = <&kp L>, <&kp RIGHT>;
                         mods = <MOD_LALT>;
@@ -43,8 +43,8 @@
                         bindings = <
     &bootloader
     &gresc     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS  &kp EQUAL  &kp BSPC
-    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT   &kp RBKT   &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-    &kp LALT   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp APOS
+    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT   &kp RBKT   &kp Y      &kp U      &ijklup    &kp O      &kp P      &kp BSLH
+    &kp LALT   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &ijklleft  &ijkldown  &ijklright &kp SCLN   &kp APOS
     &kp LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LBRC   &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &mt RSFT ENTER
     &kp LCTRL  &kp LALT   &none      &none      &kp GRAVE                                              &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none
                                                            &kp C_PREV &kp C_NEXT &kp C_VOL_DN   &kp C_VOL_UP
