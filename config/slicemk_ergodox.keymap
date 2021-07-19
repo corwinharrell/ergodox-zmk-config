@@ -8,28 +8,28 @@
                 ijklup: iarrow_up {
                         compatible = "zmk,behavior-mod-morph";
                         label = "IARROW_UP";
-                        #binding-cells = <25>;
+                        #binding-cells = <24>;
                         bindings = <&kp I>, <&kp UP>;
                         mods = <(MOD_LALT)>;
                 };
                 ijklleft: jarrow_left {
                         compatible = "zmk,behavior-mod-morph";
                         label = "JARROW_LEFT";
-                        #binding-cells = <36>;
+                        #binding-cells = <35>;
                         bindings = <&kp J>, <&kp LEFT>;
                         mods = <(MOD_LALT)>;
                 };
                 ijkldown: karrow_down {
                         compatible = "zmk,behavior-mod-morph";
                         label = "KARROW_DOWN";
-                        #binding-cells = <37>;
+                        #binding-cells = <36>;
                         bindings = <&kp K>, <&kp DOWN>;
                         mods = <(MOD_LALT)>;
                 };
                 ijklright: larrow_right {
                         compatible = "zmk,behavior-mod-morph";
                         label = "LARROW_RIGHT";
-                        #binding-cells = <38>;
+                        #binding-cells = <37>;
                         bindings = <&kp L>, <&kp RIGHT>;
                         mods = <(MOD_LALT)>;
                 };
