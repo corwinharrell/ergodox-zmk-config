@@ -7,22 +7,22 @@
         combos {
                 compatible = "zmk,combos";
                 combo_left {
-                    timeout-ms = <>;
+                    timeout-ms = <10000>;
                     key-positions = <29 36>;
                     bindings = <&kp LEFT>;
                 };
                 combo_up {
-                    timeout-ms = <>;
+                    timeout-ms = <10000>;
                     key-positions = <29 25>;
                     bindings = <&kp UP>;
                 };
                 combo_down {
-                    timeout-ms = <>;
+                    timeout-ms = <10000>;
                     key-positions = <29 37>;
                     bindings = <&kp DOWN>;
                 };
                 combo_right {
-                    timeout-ms = <>;
+                    timeout-ms = <10000>;
                     key-positions = <29 38>;
                     bindings = <&kp RIGHT>;
                 };
