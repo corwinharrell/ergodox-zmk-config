@@ -5,33 +5,33 @@
 
 / {
         behaviors {
-                ijklup: i_arrow_up {
+                ijklup: iarrow_up {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "I_ARROW_UP";
+                        label = "IARROW_UP";
                         #binding-cells = <25>;
                         bindings = <&kp I>, <&kp UP>;
-                        mods = <MOD_LALT>;
+                        mods = <(MOD_LALT)>;
                 };
-                ijklleft: j_arrow_left {
+                ijklleft: jarrow_left {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "J_ARROW_LEFT";
+                        label = "JARROW_LEFT";
                         #binding-cells = <36>;
                         bindings = <&kp J>, <&kp LEFT>;
-                        mods = <MOD_LALT>;
+                        mods = <(MOD_LALT)>;
                 };
-                ijkldown: k_arrow_down {
+                ijkldown: karrow_down {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "K_ARROW_DOWN";
+                        label = "KARROW_DOWN";
                         #binding-cells = <37>;
                         bindings = <&kp K>, <&kp DOWN>;
-                        mods = <MOD_LALT>;
+                        mods = <(MOD_LALT)>;
                 };
-                ijklright: l_arrow_right {
+                ijklright: larrow_right {
                         compatible = "zmk,behavior-mod-morph";
-                        label = "L_ARROW_RIGHT";
+                        label = "LARROW_RIGHT";
                         #binding-cells = <38>;
                         bindings = <&kp L>, <&kp RIGHT>;
-                        mods = <MOD_LALT>;
+                        mods = <(MOD_LALT)>;
                 };
                 
         };
