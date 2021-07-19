@@ -10,28 +10,28 @@
                         label = "IARROW_UP";
                         #binding-cells = <0>;
                         bindings = <&kp I>, <&kp UP>;
-                        mods = <(MOD_LCTRL)>;
+                        mods = <(MOD_LCTL)>;
                 };
                 ijklleft: jarrow_left {
                         compatible = "zmk,behavior-mod-morph";
                         label = "JARROW_LEFT";
                         #binding-cells = <0>;
                         bindings = <&kp J>, <&kp LEFT>;
-                        mods = <(MOD_LCTRL)>;
+                        mods = <(MOD_LCTL)>;
                 };
                 ijkldown: karrow_down {
                         compatible = "zmk,behavior-mod-morph";
                         label = "KARROW_DOWN";
                         #binding-cells = <0>;
                         bindings = <&kp K>, <&kp DOWN>;
-                        mods = <(MOD_LCTRL)>;
+                        mods = <(MOD_LCTL)>;
                 };
                 ijklright: larrow_right {
                         compatible = "zmk,behavior-mod-morph";
                         label = "LARROW_RIGHT";
                         #binding-cells = <0>;
                         bindings = <&kp L>, <&kp RIGHT>;
-                        mods = <(MOD_LCTRL)>;
+                        mods = <(MOD_LCTL)>;
                 };
                 
         };
@@ -44,7 +44,7 @@
     &bootloader
     &gresc     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS  &kp EQUAL  &kp BSPC
     &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT   &kp RBKT   &kp Y      &kp U      &ijklup    &kp O      &kp P      &kp BSLH
-    &kp LCTRL   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &ijklleft  &ijkldown  &ijklright &kp SCLN   &kp ENTER
+    &kp LCTL   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &ijklleft  &ijkldown  &ijklright &kp SCLN   &kp ENTER
     &kp LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LBRC   &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &mt RSFT APOS
     &kp LALT   &none      &none      &none      &none                                                  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none
                                                            &kp C_PREV &kp C_NEXT &kp C_VOL_DN   &kp C_VOL_UP
